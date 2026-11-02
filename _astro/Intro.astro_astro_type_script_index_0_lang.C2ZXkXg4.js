@@ -1,0 +1,1 @@
+import{m as o,w as r,a,g as s}from"./motion.DjPieiA6.js";const t=document.querySelector("[data-tune]");t&&o()&&r(()=>{a.create(t,{type:"words",aria:"none",wordsClass:"tw",autoSplit:!0,onSplit(e){return s.fromTo(e.words,{opacity:.13},{opacity:1,ease:"none",stagger:.12,scrollTrigger:{trigger:t,start:"top 82%",end:"bottom 52%",scrub:.5}})}})});

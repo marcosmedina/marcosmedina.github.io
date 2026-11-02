@@ -1,0 +1,1 @@
+import{m as o,w as a,g as r}from"./motion.DjPieiA6.js";const t=document.querySelector("[data-path]"),e=t?.querySelector("[data-path-fill]");t&&e&&o()&&a(()=>{r.fromTo(e,{scaleY:0},{scaleY:1,ease:"none",scrollTrigger:{trigger:t,start:"top 70%",end:"bottom 60%",scrub:.6}})});
