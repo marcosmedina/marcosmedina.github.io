@@ -1,0 +1,1 @@
+const o=["signal","hi","ice","fg","fg1","fg2","line","panel"];let t=null;const r=()=>{const e=getComputedStyle(document.documentElement);return Object.fromEntries(o.map(n=>[n,e.getPropertyValue(`--rgb-${n}`).trim()]))},c=(e,n=1)=>(t??=r(),`rgb(${t[e]} / ${n})`),s=e=>document.addEventListener("designchange",()=>{t=null,e()});export{s as o,c as t};
