@@ -1,0 +1,13 @@
+{
+  "name": "Marcos Medina",
+  "short_name": "M. Medina",
+  "description": "Telecommunication engineer — AI development & automation.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f1ede5",
+  "theme_color": "#f1ede5",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
